@@ -2,7 +2,7 @@ To run the programs, you need to have the graph in the konect format inside a fo
 
 Firstly, follow the instructions contained in the beginning of the file 'get_metis_format.cpp' in order to compile the file and to run it with the choosen graph. After running it, you will get the graph in the metis format in the same folder as the konect graph.
 
-Then, run gpmetis on the metis file that you got: gpmetis metis-file number-of-partitions
+Then, run gpmetis on the metis file that you got: ```gpmetis metis-file number-of-partitions```
 
 Then, follow the instructions contained in the beginning of the file 'get_communities.cpp' in order to get the file with the communities and the file with the catalog.
 
